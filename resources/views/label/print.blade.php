@@ -99,6 +99,11 @@
             font-weight: bold;
             letter-spacing: 1px;
         }
+        .date{
+                margin-top: 9mm;
+                font-size: 20px;
+                text-align: center;
+        }
 
         @media print {
 
@@ -173,7 +178,7 @@
                     CARTOON {{ $i }} OF {{ $cartoonNo }}<br>
                 </div>
             </div>
-            <div class="date" style="align-items: center">
+            <div class="date">
                 {{ $date->format('Y-m-d') }}
             </div>
         </div>
